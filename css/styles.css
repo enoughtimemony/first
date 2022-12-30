@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+
+
 @import "reset.css";
-@import "compotent/status-bar.css";
 @import "variables.css";
+
+@import "compotent/status-bar.css";
+@import "compotent/nar_var.css";
+
 @import "screen/login.css";
+
 body{
     font-family: 'Nanum Gothic', sans-serif;
 }
