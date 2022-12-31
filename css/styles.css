@@ -6,11 +6,13 @@
 
 @import "compotent/status-bar.css";
 @import "compotent/nar_var.css";
+@import "compotent/screen-header.css";
 
 @import "screen/login.css";
 
 body{
     font-family: 'Nanum Gothic', sans-serif;
+    height: 1000vh;
 }
 
 
