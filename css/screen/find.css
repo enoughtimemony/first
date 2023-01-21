@@ -1,0 +1,32 @@
+.find-icons{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 30px;
+    margin-top:30px;
+}
+.find-icons__icon span{
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.find-icons__icon i {
+    font-size: 35px;
+}
+.recommended-frineds{
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);;
+    color: rgba(0,0,0,0.2);
+}
+.recommended-frineds__title{
+    margin: 20px 0px;
+    font-size: 14px;
+}
+.recommended-frineds span{
+    margin:90px 0px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}

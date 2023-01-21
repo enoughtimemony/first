@@ -8,14 +8,20 @@
 @import "compotent/nar_var.css";
 @import "compotent/screen-header.css";
 @import "compotent/user-component.css";
+@import "compotent/badge.css";
 
 @import "screen/login.css";
 @import "screen/frineds.css";
+@import "screen/find.css";
 
 body{
     font-family: 'Nanum Gothic', sans-serif;
     height: 1000vh;
     color:#2e363e;
+}
+
+.main-screen{
+    padding:0px var(--horizontal-space);
 }
 
 

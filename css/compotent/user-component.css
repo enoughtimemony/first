@@ -18,9 +18,13 @@
     font-size: 22px;
 }
 .user-component__subtittle{
-    margin-top:7px;
-    font-size: 22px;
+    margin-top:-17px;
+    font-size: 10px;
     color: rgba(0,0,0,0.7);
+}
+.user-component__time{
+    margin-bottom: 10px;
+    display: block;    
 }
 .friends-screen{
     padding: 0px 20px;
@@ -46,4 +50,7 @@
 }
 .user-component__column:last-child{
     color: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
