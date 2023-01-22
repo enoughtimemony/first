@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chats - Kokoa Clone</title>
+    <title>More - Kokoa Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -25,29 +25,101 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icon">
             <span><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
-            <span><i class="fa-solid fa-comment-medical fa-xl"></i></span>
             <span><i class="fa-solid fa-music fa-xl"></i></span>
             <span><i class="fa-solid fa-gear fa-xl"></i></span>
+            <span class="screen-header__gear"></span>
          </div>
     </header>
 
 
-    <main class="friends-screen">
+    <main class="main-screen">
         <div class="user-component">
             <div class="user-component__column">
                 <img src="https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2022/05/11/029fdc46-8afe-4ba2-ac5b-3f6375d5f57a.jpg" 
-                class="user-component__avatar user-component__avatar--xl"/>
+                class="user-component__avatar user-component__avatar"/>
                 <div class="user-component__text">
                     <h4 class="user-component__tittle">Kimchaewon</h4>
-                    <h6>Hi friends. My name is Kimchaewon❤️</h6>
-                    <!--<h6 class="user-component__subtittle"></h6>-->
+                    <h6 class="user-component__subtittle">010-2000-0801❤️</h6>
                 </div>
             </div>
             <div class="user-component__column">
-                21:19
+                <span class="user-component__time"><i class="fa-solid fa-rectangle-list fa-2xl"></i></span>
+            </div>
+        </div>
+        <div class="find-icons">
+            <div class="find-icons__icon">
+                <i class="fa-regular fa-calendar-check"></i>
+                <span>Calendar</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fa-solid fa-inbox"></i>
+                <span>Talk Drive</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fa-regular fa-face-smile"></i>
+                <span>Emotions</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fa-solid fa-brush"></i>
+                <span>Themes</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fa-solid fa-diagram-project"></i>
+                <span>Account</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fa-brands fa-rocketchat"></i>
+                <span>Open Chat</span>
+            </div>
+        </div>
+        <div class="recommended-frineds">
+            <h6 class="recommended-frineds__title">Recommended-Friends</h6>
+            <span>You have no recommended friends</span>
+        </div>
+        <div class="open-chat">
+            <div class="open-chat__header">
+                <h4 class="open-chat__title">Open Chat</h4>
+                <span class="open-chat__title-one">Go to Openchat Home <i class="fas fa-chevron-right"></i></span>
+            </div>
+            <div class="open-post">
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#BTS</h5>
+                    <h6 class="open-post__hashtags">#bts#army#friends</h6>
+                    <div class="open-post__members">
+                        <img src="https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2022/05/11/029fdc46-8afe-4ba2-ac5b-3f6375d5f57a.jpg"/>
+                        <span class="open-post_member-count">802 members</span>
+                        <div class="divider"></div>
+                        <span class="open-post__member-status">Active</span>
+                    </div>
+                </div>
+                <div class="open-post__column">
+                    <div class="open-post__image">
+                        <img src="https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2022/05/11/029fdc46-8afe-4ba2-ac5b-3f6375d5f57a.jpg"/>
+                        <div class="open-post__heart-count"><i class="fa-solid fa-heart fa-xs"></i> <span>326</span></div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="open-post">
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#BTS</h5>
+                    <h6 class="open-post__hashtags">#bts#army#friends</h6>
+                    <div class="open-post__members">
+                        <img src="https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2022/05/11/029fdc46-8afe-4ba2-ac5b-3f6375d5f57a.jpg"/>
+                        <span class="open-post_member-count">802 members</span>
+                        <div class="divider"></div>
+                        <span class="open-post__member-status">Active</span>
+                    </div>
+                </div>
+                <div class="open-post__column">
+                    <div class="open-post__image">
+                        <img src="https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2022/05/11/029fdc46-8afe-4ba2-ac5b-3f6375d5f57a.jpg"/>
+                        <div class="open-post__heart-count"><i class="fa-solid fa-heart fa-xs"></i> <span>326</span></div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -59,13 +131,13 @@
                 <i class="fa-regular fa-user fa-2x"></i>
             </a></li>
             <li class="nav__btn"><a class="nav__link" href="chats.html">
-                <span class="nav__notification">1</span>
-                <i class="fa-solid fa-comment fa-2x"></i>
+                <span class="nav__notification badge">1</span>
+                <i class="fa-regular fa-comment fa-2x"></i>
             </a></li>
             <li class="nav__btn"><a class="nav__link" href="find.html">
                 <i class="fa-solid fa-magnifying-glass fa-2x"></i>
             </a></li>
-            <li class="nav__btn"><a class="nav__link" href="more.htmls">
+            <li class="nav__btn"><a class="nav__link" href="more.html">
                 <span class="nav__find"></span>
                 <i class="fa-solid fa-ellipsis fa-2x"></i>
             </a></li>
