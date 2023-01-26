@@ -9,10 +9,13 @@
 @import "compotent/screen-header.css";
 @import "compotent/user-component.css";
 @import "compotent/badge.css";
+@import "compotent/icon-raw.css";
 
 @import "screen/login.css";
 @import "screen/frineds.css";
 @import "screen/find.css";
+@import "screen/more.css";
+@import "screen/settings.css";
 
 body{
     font-family: 'Nanum Gothic', sans-serif;

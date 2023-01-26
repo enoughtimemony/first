@@ -1,0 +1,46 @@
+.icon-row{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 30px;
+    margin-top:30px;
+}
+.icon-row__icon span{
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.icon-row__icon i {
+    font-size: 35px;
+}
+.icon-row-two{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 30px;
+    margin-top:30px;
+}
+.icon-row__icon-two span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.icon-row__icon-two i{
+    font-size: 35px;
+}
+.icon-row__icon-twow span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.icon-row__icon-twow i{
+    font-size: 35px;
+}
+.icon-row__icon-twow{
+    color:white;
+}

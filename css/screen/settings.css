@@ -1,0 +1,20 @@
+.settings-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px;
+}
+.settings-header__title{
+    font-size: 20px;
+}
+.icon-row__settings{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    margin-top:30px;
+}
+.icon-row__settings-icon{
+    border-bottom: var(--main-border);
+    padding: 17px 0px;
+    margin: 0px 10px;
+}
