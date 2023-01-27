@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat-back - Kokoa Clone</title>
 </head>
-<body>
+<body class="chat-back__body">
     <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
@@ -25,28 +25,24 @@
     </div>
 
     <header class="chat-back-header">
-            <span><i class="fa-solid fa-chevron-left fa-xl"></i></span>
-        <span class="chat-back-header__title">Kim</span>
-        <div class="chat-header__icon">
+        <div class="chat-back-header__column">
+            <a href="chats.html">
+                <i class="fa-solid fa-chevron-left fa-xl"></i>
+            </a>
+        </div>
+        <div class="chat-back-header__column">
+            <h1 class="chat-back-header__title">KimChaeWon</h1>
+        </div>
+        <div class="chat-back-header__column">
             <span><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
             <span><i class="fa-solid fa-rectangle-list fa-xl"></i></span>
         </div>
     </header>
 
 
-    <main class="main-screen more-screen">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2022/05/11/029fdc46-8afe-4ba2-ac5b-3f6375d5f57a.jpg" 
-                class="user-component__avatar user-component__avatar"/>
-                <div class="user-component__text">
-                    <h4 class="user-component__tittle">Kimchaewon</h4>
-                    <h6 class="user-component__subtittle">a</h6>
-                </div>
-            </div>
-            <div class="user-component__column">
-                <span class="user-component__time"><i class="fa-solid fa-rectangle-list fa-2xl"></i></span>
-            </div>
+    <main class="main-screen chat-back-screen">
+        <div class="chat-time">
+            Tuesday, June 25, 2023
         </div>
     </main>
 

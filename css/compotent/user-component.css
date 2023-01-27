@@ -38,9 +38,9 @@
     font-weight: 400px;
 }
 .friends-screen__channel{
-    margin-top:25px;
+    margin: 20px 0px;
     border-top: 1px solid rgba(0,0,0,0.3);
-    padding-top: 15px;
+    padding-top: 10px;
 }
 .friends-screen__channel-header{
     padding-bottom: 30px;
