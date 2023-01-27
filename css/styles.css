@@ -10,6 +10,7 @@
 @import "compotent/user-component.css";
 @import "compotent/badge.css";
 @import "compotent/icon-raw.css";
+@import "compotent/chat-back.css";
 
 @import "screen/login.css";
 @import "screen/frineds.css";

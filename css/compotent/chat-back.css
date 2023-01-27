@@ -1,0 +1,8 @@
+.chat-back-header{
+    display:flex;
+    justify-content: space-between;
+    margin: 20px 10px;
+}
+.chat-header__icon{
+    margin-left: 25px;
+}
