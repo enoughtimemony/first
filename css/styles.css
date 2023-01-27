@@ -16,6 +16,7 @@
 @import "screen/find.css";
 @import "screen/more.css";
 @import "screen/settings.css";
+@import "screen/kokoka.css";
 
 body{
     font-family: 'Nanum Gothic', sans-serif;

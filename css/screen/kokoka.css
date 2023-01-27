@@ -1,0 +1,13 @@
+.kokoa{
+    background-color: #fae100; 
+}
+.kokoa-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:300px;
+}
+.kokoa-div span{
+    font-size: 50px;
+    color:#2A0A0A;
+}

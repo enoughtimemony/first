@@ -13,12 +13,13 @@
     display:flex;
     justify-content: start;
     align-items: center;
+    text-align: center;
 }
 .more-suggestions__picture-icon{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin:0px 20px;
+    margin:0px 10px;
 }
 .more-suggestions__picture-icon img{
     width: 50px;
