@@ -13,6 +13,13 @@
     width: 100%;
     box-sizing: border-box;
 }
+.chat-back-header__column{
+    width:33%;
+}
+.last {
+    display: flex;
+    justify-content: flex-end;
+}
 .chat-back-header__title{
     display:flex;
     justify-content: center;
@@ -23,11 +30,8 @@
 }
 .chat-back-screen{
     margin-top: 100px;
-    display:flex;
-    justify-content: center;
-    position:relative;
 }
-.chat-time{
+/* .chat-time{
     background-color: rgba(0,0,0,0.5);
     color:white;
     padding:5px;
@@ -37,7 +41,17 @@
     align-items: center;
     position: absolute;
     top: 10px;
+} */
+
+.chat-time{
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+    padding:5px;
+    border-radius: 10px;
+    text-align: center;
+    
 }
+
 .chat-talking{
     justify-content: space-between;
     margin-top: 50px;

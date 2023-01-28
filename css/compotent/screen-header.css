@@ -6,14 +6,21 @@
     margin-top: 30px;
     margin-bottom: 15px;
 }
+.screen-header__icon{
+    display:flex;
+}
+.screen-header__icon-icons{
+    margin: 0px 10px;
+    position: relative;
+}
 .screen-header__tittle{
     font-size: 28px;
     font-weight: bolder;
 }
 .screen-header__icon span{
     margin-left: 25px;
-    position: relative;
 }
+
 .screen-header__gear{
     background-color: tomato;
     display: flex;
@@ -22,6 +29,6 @@
     border-radius: 3px;
     color:white;
     position: absolute;
-    left: 77px;
-    bottom: 30px;
+    left: 90%;
+    bottom: 113%;
 }
