@@ -1,44 +1,44 @@
-.nav{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #f9f9fa;
-    padding: 15px 50px;
-    box-sizing: border-box;
-    border-top: 1px solid rgba(0,0,0,0.3);
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 15px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
-.nav__list{
-    display:flex;
-    justify-content: space-between;
-    list-style: none;
-    padding: 0;
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
 }
-.nav__link{
-    position: relative;
-    color:#2e363e;
+.nav__link {
+  position: relative;
+  color: #2e363e;
 }
-.nav__notification{
-    background-color: tomato;
-    display:flex;
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    justify-content: center;
-    align-items: center;
-    color:white;
-    font-weight: bolder;
-    position:absolute;
-    left:15px;
-    bottom: 15px;
+.nav__notification {
+  background-color: tomato;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bolder;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
 }
-.nav__find{
-    background-color: tomato;
-    display: flex;
-    width: 6px;
-    height: 6px;
-    border-radius: 3px;
-    color:white;
-    position: absolute;
-    left: 30px;
-    bottom: 30px;
+.nav__find {
+  background-color: tomato;
+  display: flex;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  color: white;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
 }
